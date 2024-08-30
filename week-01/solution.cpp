@@ -9,16 +9,16 @@ for(int i = a; i <= b; i++) {
 if(a % 3==0)
 {
 
-std::cout << "foo"; 
+std::cout << "foo\n"; 
 }
 else if(a % 2 == 0 && a % 3!=0)
 {
 
-std::cout << "bar";
+std::cout << "bar\n";
 }
 else
 {
-std::cout << "baz";
+std::cout << "baz\n";
 }
 }
 } 
