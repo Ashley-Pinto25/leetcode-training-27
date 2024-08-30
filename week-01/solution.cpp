@@ -11,13 +11,13 @@ if(a % 3==0)
 
 std::cout << "foo"; 
 }
-else if(a % 2 == 0)
+else if(a % 2 == 0 && a % 3!=0)
 {
 
-std::cout << "bar
+std::cout << "bar";
 }
 else
 {
-std::cout << "baz"
+std::cout << "baz";
 }
 } 
